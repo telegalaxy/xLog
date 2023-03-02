@@ -114,7 +114,7 @@
     "@iconify-json/fluent": "1.1.18",
     "@iconify-json/mdi": "1.1.48",
     "@next/bundle-analyzer": "13.2.3",
-    "@playwright/test": "1.31.1",
+    "@playwright/test": "1.31.2",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@types/canvas-confetti": "^1.6.0",
     "@types/chroma-js": "^2.4.0",

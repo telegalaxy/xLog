@@ -26,7 +26,7 @@ specifiers:
   '@iconify-json/tabler': 1.1.63
   '@monaco-editor/react': 4.4.6
   '@next/bundle-analyzer': 13.2.3
-  '@playwright/test': 1.31.1
+  '@playwright/test': 1.31.2
   '@tailwindcss/line-clamp': ^0.4.2
   '@tanstack/react-query': 4.24.10
   '@tanstack/react-query-devtools': 4.24.12
@@ -230,7 +230,7 @@ devDependencies:
   '@iconify-json/fluent': 1.1.18
   '@iconify-json/mdi': 1.1.48
   '@next/bundle-analyzer': 13.2.3
-  '@playwright/test': 1.31.1
+  '@playwright/test': 1.31.2
   '@tailwindcss/line-clamp': 0.4.2_tailwindcss@3.2.7
   '@types/canvas-confetti': 1.6.0
   '@types/chroma-js': 2.4.0
@@ -3516,13 +3516,13 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@playwright/test/1.31.1:
-    resolution: {integrity: sha512-IsytVZ+0QLDh1Hj83XatGp/GsI1CDJWbyDaBGbainsh0p2zC7F4toUocqowmjS6sQff2NGT3D9WbDj/3K2CJiA==}
+  /@playwright/test/1.31.2:
+    resolution: {integrity: sha512-BYVutxDI4JeZKV1+ups6dt5WiqKhjBtIYowyZIJ3kBDmJgsuPKsqqKNIMFbUePLSCmp2cZu+BDL427RcNKTRYw==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.14.4
-      playwright-core: 1.31.1
+      playwright-core: 1.31.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -10821,8 +10821,8 @@ packages:
       pathe: 1.1.0
     dev: true
 
-  /playwright-core/1.31.1:
-    resolution: {integrity: sha512-JTyX4kV3/LXsvpHkLzL2I36aCdml4zeE35x+G5aPc4bkLsiRiQshU5lWeVpHFAuC8xAcbI6FDcw/8z3q2xtJSQ==}
+  /playwright-core/1.31.2:
+    resolution: {integrity: sha512-a1dFgCNQw4vCsG7bnojZjDnPewZcw7tZUNFN0ZkcLYKj+mPmXvg4MpaaKZ5SgqPsOmqIf2YsVRkgqiRDxD+fDQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
