@@ -23,7 +23,7 @@ specifiers:
   '@iconify-json/carbon': 1.1.16
   '@iconify-json/fluent': 1.1.18
   '@iconify-json/mdi': 1.1.48
-  '@iconify-json/tabler': 1.1.63
+  '@iconify-json/tabler': 1.1.64
   '@monaco-editor/react': 4.4.6
   '@next/bundle-analyzer': 13.2.3
   '@playwright/test': 1.31.1
@@ -150,7 +150,7 @@ dependencies:
   '@headlessui/react': 1.7.12_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.16_react@18.2.0
   '@iconify-json/akar-icons': 1.1.13
-  '@iconify-json/tabler': 1.1.63
+  '@iconify-json/tabler': 1.1.64
   '@monaco-editor/react': 4.4.6_biqbaboplfbrettd7655fr4n2y
   '@tanstack/react-query': 4.24.10_biqbaboplfbrettd7655fr4n2y
   '@tanstack/react-query-devtools': 4.24.12_636dldj5wfr5vkyyqzs5k363kq
@@ -2817,8 +2817,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/tabler/1.1.63:
-    resolution: {integrity: sha512-WvIsUJsil2+U1lPbguzbjG4v5sYqMkHp5P0PDXjwz/3XqS4mlFSicxmtSQcthRdQBbX2hMfXamtvqUYrNc2sCQ==}
+  /@iconify-json/tabler/1.1.64:
+    resolution: {integrity: sha512-+QMcM/kNRVUt4AdhuXF18RBR+oEsMqIf+zqQX4SMkwfGUzlENtlh4JAFyoeyEaKMdZfszB2TjV7iswxwbPR5hA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
