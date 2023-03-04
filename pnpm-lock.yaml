@@ -75,7 +75,7 @@ specifiers:
   ioredis: 5.3.1
   js-yaml: 4.1.0
   jsonfeed-to-rss: ^3.0.6
-  langchain: ^0.0.20
+  langchain: ^0.0.22
   lint-staged: 13.1.2
   lottie-react: ^2.4.0
   mdast-util-to-string: 3.1.1
@@ -174,7 +174,7 @@ dependencies:
   ioredis: 5.3.1
   js-yaml: 4.1.0
   jsonfeed-to-rss: 3.0.6
-  langchain: 0.0.20
+  langchain: 0.0.22
   lottie-react: 2.4.0_biqbaboplfbrettd7655fr4n2y
   mdast-util-to-string: 3.1.1
   mdast-util-toc: 6.1.1
@@ -8998,20 +8998,22 @@ packages:
     resolution: {integrity: sha512-ymToLHqL02udwVdbkowNpzjFd6UzozMtshPQKVi5k1EjKRqKqBrOnE9QbLEb0/pV76SAiIT13hdL8R6suc+f3g==}
     dev: true
 
-  /langchain/0.0.20:
-    resolution: {integrity: sha512-ADh1pRy8gWyHin3pAnsc57wO/HF9g2e/c+pQNk73qvEN5chtQjUR8/E8ZANxaMHaZOk24vXZ3Jfw40QU/faEPg==}
+  /langchain/0.0.22:
+    resolution: {integrity: sha512-i6Lon2S3TK/7eHLwxsTccDrec+O1ZVdGfndwpzCRVli9X4K7sQ05h04T6FAOLREb+sspmGrZy407ZXS4CyXhRw==}
     peerDependencies:
       '@dqbd/tiktoken': ^0.4.0
+      '@huggingface/inference': ^1.5.1
       '@pinecone-database/pinecone': ^0.0.8
       cheerio: ^1.0.0-rc.12
       chromadb: ^1.3.0
       cohere-ai: ^5.0.2
       hnswlib-node: ^1.3.0
-      huggingface: ^1.4.0
       serpapi: ^1.1.1
       srt-parser-2: ^1.2.2
     peerDependenciesMeta:
       '@dqbd/tiktoken':
+        optional: true
+      '@huggingface/inference':
         optional: true
       '@pinecone-database/pinecone':
         optional: true
@@ -9040,7 +9042,6 @@ packages:
       p-queue: 7.3.4
       pdf-parse: 1.1.1
       sqlite3: 5.1.4
-      unfetch: 5.0.0
       uuid: 9.0.0
       yaml: 2.2.1
     transitivePeerDependencies:
@@ -12848,10 +12849,6 @@ packages:
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
-    dev: false
-
-  /unfetch/5.0.0:
-    resolution: {integrity: sha512-3xM2c89siXg0nHvlmYsQ2zkLASvVMBisZm5lF3gFDqfF2xonNStDJyMpvaOBe0a1Edxmqrf2E0HBdmy9QyZaeg==}
     dev: false
 
   /unicode-canonical-property-names-ecmascript/2.0.0:
